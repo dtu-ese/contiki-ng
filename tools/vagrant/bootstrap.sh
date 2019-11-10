@@ -19,7 +19,7 @@ sudo cp -f -r /tmp/gcc-arm-none-eabi-5_2-2015q4/* /usr/local/
 rm -rf /tmp/gcc-arm-none-eabi-* gcc-arm-none-eabi-*-linux.tar.bz2
 
 # Install msp430 toolchain
-wget http://simonduq.github.io/resources/mspgcc-4.7.2-compiled.tar.bz2
+wget -nv http://simonduq.github.io/resources/mspgcc-4.7.2-compiled.tar.bz2
 tar xjf mspgcc*.tar.bz2 -C /tmp/
 sudo cp -f -r /tmp/msp430/* /usr/local/
 rm -rf /tmp/msp430 mspgcc*.tar.bz2
