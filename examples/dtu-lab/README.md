@@ -69,6 +69,7 @@ $ ./hello-world.native
 The output should like like this:
 
 ```sh
+[WARN: Tun6      ] Failed to open tun device (you may be lacking permission). Running without network.
 [INFO: Main      ] Starting Contiki-NG-develop/v4.4-31-ge14d7dc
 [INFO: Main      ] - Routing: RPL Lite
 [INFO: Main      ] - Net: tun6
@@ -82,5 +83,9 @@ The output should like like this:
 Hello, world
 ```
 
-***Note:*** This step builds the hello-world example for Linux. During the course, we will build it and run it on the Launchpad CC2650 platform (ARM Cortex-M3 processor).
+***Note:***
+* This step builds the hello-world example for Linux. During the course, we will build it and run it on the Launchpad CC2650 platform (ARM Cortex-M3 processor).
+* The first output line has thrown a warning. This can be avoided by running
+  with sudo, but just ignore this for now.
+
 
