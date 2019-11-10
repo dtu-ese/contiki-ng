@@ -22,7 +22,7 @@ Download and install Vagrant: https://www.vagrantup.com/downloads.html.
 Clone the repository:
 
 ```sh
-$ git clone git@github.com:dtu-ese/contiki-ng.git
+$ git clone --depth 50 git@github.com:dtu-ese/contiki-ng.git
 ```
 
 Initialise the submodules:
